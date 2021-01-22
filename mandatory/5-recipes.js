@@ -23,5 +23,13 @@ cocoa
 You should write and log at least 5 recipes
 
 **/
-
-let recipes = {};
+let recipe {
+    title: "Mole",
+    serves: 4,
+    food: "cin, cumin, cocoa";
+} 
+    recipe(obj){ 
+     
+  return obj.title + "<br>" + "serves: " +  obj.serves + "<br>" + "ingredients: <br>" + obj.food + " <br> " 
+      }
+};

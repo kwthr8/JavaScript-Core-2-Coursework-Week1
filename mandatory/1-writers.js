@@ -48,8 +48,8 @@ let writers = [
     occupation: "writer",
     age: 64,
     alive: true,
-  },
-];
+  }
+]
 
 /*
 Exercise 1:
@@ -59,6 +59,12 @@ Exercise 1:
 
   "Hi, my name is {firstName} {lastName}. I am {age} years old, and work as a {occupation}."
 */
+{
+
+  let writers = function (firstName, lastName) {
+    return "writer" + firstName + "Virginia" + lastName + "Woolf";
+  }
+};
 
 /*
 Exercise 2:
@@ -69,6 +75,7 @@ Exercise 2:
   "Writer {firstName} {lastName} died at {age} years old."
 */
 
+console.log(writers["Jane", "Zadie"]);
 /*
 Exercise 3:
 
@@ -76,3 +83,4 @@ Exercise 3:
 
   "Hi, my name is {firstName} {lastName}. I am {age} years old."
 */
+console.log(writers["Virginia", "Bell"]);
